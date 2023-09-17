@@ -1,0 +1,125 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #eee;
+}
+.main-body{
+    height: 1500px;
+}
+.top{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.left-img img{
+    width: 320px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.nav-space{
+    width: auto;
+    height: 100px;
+}
+.nav-bar{
+    width: auto;
+    height: 30px;
+    margin-left: 500px;
+    margin-top: 25px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+.nav-bar ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 140px;
+}
+.top{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.content{
+    width: 60%;
+    height: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.mail{
+    width: 300px;
+    height: 25px;
+}
+.btn{
+    margin-top: 15px;
+    width: 110px;
+    height: 30px;
+    background-color: #d5d529;
+    border: none;
+    border-radius: 4px;
+    font-family: cursive;
+}
+.service{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+}
+.service-x{
+    text-align: left;
+    font-family: cursive;
+}
+.end{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    width: 32%;
+    height: 95%;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+}
+.col h4{
+    background-color: #eee;
+    height: 25px;
+}
+.col b{
+    font-size: larger;
+}
+.col p{
+    font-family: cursive;
+}
+.footer{
+    width: 60%;
+    height: 110px;
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.info ul li{
+    float:left;
+    list-style-type: none;
+    padding-left: 20px;
+}
+.info ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+.info{
+    width: 40%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
